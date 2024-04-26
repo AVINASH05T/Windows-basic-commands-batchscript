@@ -31,17 +31,17 @@ Create a directory named "MyLab" on the desktop.
 ```
 mkdir %userprofile%\Desktop\MyLab
 ```
-![alt text](../1.png)
+![alt text](1.png)
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 ## COMMAND AND OUTPUT
 ```
 cd %userprofile%\Desktop\MyLab
 ```
-![alt text](../2.png)
+![alt text](2.png)
 
 
-![alt text](../3.png)
+![alt text](3.png)
 
 
 
@@ -50,7 +50,7 @@ List the contents of the "MyLab" directory.
 ```
 dir %userprofile%\Desktop\MyLab
 ```
-![alt text](../4.png)
+![alt text](4.png)
 
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
@@ -61,10 +61,10 @@ mkdir %userprofile%\Desktop\Backup
 copy MyFile.txt %userprofile%\Desktop\Backup
 ```
 
-![alt text](../5.png)
+![alt text](5.png)
 
 
-![alt text](../6.png)
+![alt text](6.png)
 
 Move the "MyLab" directory to the "Documents" folder.
 
@@ -72,7 +72,7 @@ Move the "MyLab" directory to the "Documents" folder.
 ```
 mv Myfile.txt %userprofile%\Documents
 ```
-![alt text](../7.png)
+![alt text](7.png)
 
 
 ## Exercise 2: Advanced Batch Scripting
@@ -93,7 +93,7 @@ echo Backup and deletion completed successfully!
 ```
 
 ## OUTPUT
-![alt text](../8.png)
+![alt text](8.png)
 
 # RESULT:
 The commands/batch files are executed successfully
